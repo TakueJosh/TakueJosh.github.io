@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Takue Joshua — Portfolio</title>
+  <style>
+    :root { --bg:#0f172a; --surface:#1e293b; --border:#334155; --text:#e2e8f0; --muted:#94a3b8; --accent:#38bdf8; }
+    * { box-sizing:border-box; margin:0; padding:0; }
+    body { font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+    .wrap { max-width:780px; margin:0 auto; padding:4rem 1.25rem 5rem; }
+    header { margin-bottom:3rem; }
+    header h1 { font-size:2.2rem; letter-spacing:-.02em; }
+    header .role { color:var(--accent); font-weight:600; margin-top:.25rem; }
+    header p { color:var(--muted); margin-top:.75rem; }
+    .links { display:flex; flex-wrap:wrap; gap:.6rem; margin-top:1.25rem; }
+    .links a { padding:.45rem 1rem; border:1px solid var(--border); border-radius:999px; color:var(--text); text-decoration:none; font-size:.875rem; transition:all .2s; }
+    .links a:hover { border-color:var(--accent); color:var(--accent); }
+    section { margin-bottom:2.75rem; }
+    h2 { font-size:.8rem; text-transform:uppercase; letter-spacing:.12em; color:var(--accent); margin-bottom:1rem; font-weight:700; }
+    .skills { display:flex; flex-wrap:wrap; gap:.5rem; }
+    .skills span { background:var(--surface); border:1px solid var(--border); padding:.3rem .8rem; border-radius:6px; font-size:.85rem; }
+    .project { background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:1.25rem; margin-bottom:.85rem; transition:border-color .2s; }
+    .project:hover { border-color:var(--accent); }
+    .project h3 { font-size:1.05rem; margin-bottom:.3rem; }
+    .project p { color:var(--muted); font-size:.9rem; }
+    .project a { color:var(--accent); font-size:.85rem; text-decoration:none; }
+    footer { border-top:1px solid var(--border); padding-top:1.5rem; color:var(--muted); font-size:.85rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>Takue Joshua</h1>
+      <p class="role">Frontend Developer · React &amp; JavaScript</p>
+      <p>I build clean, responsive web interfaces and enjoy solving algorithmic problems. Currently learning React and modern JavaScript tooling.</p>
+      <div class="links">
+        <a href="https://github.com/TakueJosh">GitHub</a>
+        <a href="mailto:joshfuramwenje@gmail.com">Email</a>
+      </div>
+    </header>
+    <section>
+      <h2>Skills</h2>
+      <div class="skills">
+        <span>JavaScript</span><span>React</span><span>HTML5</span>
+        <span>CSS3</span><span>Git &amp; GitHub</span><span>Vite</span>
+        <span>REST APIs</span><span>Data Structures</span>
+      </div>
+    </section>
+    <section>
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>React + AJAX Assignment</h3>
+        <p>A React app demonstrating components, props, state, and event handling, plus a live user directory fetched from a public REST API with full loading and error state handling.</p>
+        <a href="https://github.com/TakueJosh/react-ajax-assignment">View on GitHub →</a>
+      </div>
+    </section>
+    <section>
+      <h2>Education</h2>
+      <div class="project">
+        <h3>Computer Science Student</h3>
+        <p>Currently studying programming and web development.</p>
+      </div>
+    </section>
+    <footer>© 2026 Takue Joshua · Built with plain HTML &amp; CSS</footer>
+  </div>
+</body>
+</html>
